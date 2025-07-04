@@ -710,9 +710,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@truestar/shared-types@workspace:.":
+"@truestarhq/shared-types@workspace:.":
   version: 0.0.0-use.local
-  resolution: "@truestar/shared-types@workspace:."
+  resolution: "@truestarhq/shared-types@workspace:."
   dependencies:
     orval: "npm:^6.30.2"
     zod: "npm:^3.23.8"
