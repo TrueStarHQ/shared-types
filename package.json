@@ -1,6 +1,6 @@
 {
-  "name": "@truestar/shared-types",
-  "version": "0.1.0",
+  "name": "@truestarhq/shared-types",
+  "version": "0.0.1",
   "types": "./index.ts",
   "license": "MIT",
   "scripts": {

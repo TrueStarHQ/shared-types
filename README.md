@@ -9,13 +9,13 @@ Shared TypeScript types for the TrueStar project, automatically generated from [
 ## Installation
 
 ```bash
-yarn add @truestar/shared-types
+yarn add @truestarhq/shared-types
 ```
 
 ## Usage
 
 ```typescript
-import { AmazonReview, checkAmazonReviewsBody } from "@truestar/shared-types";
+import { AmazonReview, checkAmazonReviewsBody } from "@truestarhq/shared-types";
 
 // Use types
 const review: AmazonReview = {
