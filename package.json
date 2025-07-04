@@ -1,0 +1,28 @@
+{
+  "name": "@truestar/shared-types",
+  "version": "0.1.0",
+  "types": "./index.ts",
+  "license": "MIT",
+  "scripts": {
+    "clean": "rm -rf generated openapi.yaml",
+    "fetch": "node scripts/fetch-api-spec.js",
+    "codegen": "orval --config orval.config.cjs",
+    "update": "yarn clean && yarn fetch && yarn codegen && rm -f openapi.yaml"
+  },
+  "dependencies": {
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "orval": "^6.30.2"
+  },
+  "files": [
+    "generated",
+    "index.ts"
+  ],
+  "exports": {
+    ".": {
+      "types": "./index.ts"
+    }
+  },
+  "packageManager": "yarn@4.9.2"
+}
