@@ -1,2 +1,2 @@
-export * from './generated/index.js';
-export * from './generated/zod.js';
+export * from './generated/index';
+export * from './generated/zod';

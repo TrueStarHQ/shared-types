@@ -9,7 +9,7 @@ Shared TypeScript types for the TrueStar project, automatically generated from [
 ## Installation
 
 ```bash
-yarn add @truestarhq/shared-types
+pnpm add @truestarhq/shared-types
 ```
 
 ## Usage
@@ -39,24 +39,24 @@ if (!validationResult.success) {
 When the OpenAPI spec changes in the API repository:
 
 ```bash
-yarn update
+pnpm update
 ```
 
 This fetches the latest spec from GitHub, regenerates types, and cleans up.
 
 ### Scripts
 
-- `yarn update` - Fetch from GitHub, generate types, and clean up
-- `yarn fetch` - Fetch OpenAPI spec from GitHub
-- `yarn codegen` - Generate types from existing openapi.yaml
-- `yarn clean` - Clean generated types and OpenAPI spec
+- `pnpm update` - Fetch from GitHub, generate types, and clean up
+- `pnpm fetch` - Fetch OpenAPI spec from GitHub
+- `pnpm codegen` - Generate types from existing openapi.yaml
+- `pnpm clean` - Clean generated types and OpenAPI spec
 
 ## Publishing
 
 This package is published to npm. To release a new version:
 
 1. Update version in `package.json`
-2. Run `yarn update` to fetch and regenerate types
+2. Run `pnpm update` to fetch and regenerate types
 3. Commit changes
 4. Create a git tag
 5. Push to repository
