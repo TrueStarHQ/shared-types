@@ -6,6 +6,6 @@
  * OpenAPI spec version: 1.0.0
  */
 import type { Response } from './response';
-import type { ErrorResponseAllOf } from './errorResponseAllOf';
+import type { CheckAmazonProductResponseAllOf } from './checkAmazonProductResponseAllOf';
 
-export type ErrorResponse = Response & ErrorResponseAllOf;
+export type CheckAmazonProductResponse = Response & CheckAmazonProductResponseAllOf;
