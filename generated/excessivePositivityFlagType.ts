@@ -6,10 +6,10 @@
  * OpenAPI spec version: 1.0.0
  */
 
-export type MixedRatingsFlagType = typeof MixedRatingsFlagType[keyof typeof MixedRatingsFlagType];
-
+export type ExcessivePositivityFlagType =
+  (typeof ExcessivePositivityFlagType)[keyof typeof ExcessivePositivityFlagType];
 
 // eslint-disable-next-line @typescript-eslint/no-redeclare
-export const MixedRatingsFlagType = {
-  mixed_ratings: 'mixed_ratings',
+export const ExcessivePositivityFlagType = {
+  excessive_positivity: "excessive_positivity",
 } as const;

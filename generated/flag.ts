@@ -5,7 +5,7 @@
  * API for fake review detection services
  * OpenAPI spec version: 1.0.0
  */
-import type { FlagDetails } from './flagDetails';
+import type { FlagDetails } from "./flagDetails";
 
 export interface Flag {
   /**

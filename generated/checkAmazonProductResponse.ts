@@ -5,7 +5,8 @@
  * API for fake review detection services
  * OpenAPI spec version: 1.0.0
  */
-import type { Response } from './response';
-import type { CheckAmazonProductResponseAllOf } from './checkAmazonProductResponseAllOf';
+import type { Response } from "./response";
+import type { CheckAmazonProductResponseAllOf } from "./checkAmazonProductResponseAllOf";
 
-export type CheckAmazonProductResponse = Response & CheckAmazonProductResponseAllOf;
+export type CheckAmazonProductResponse = Response &
+  CheckAmazonProductResponseAllOf;

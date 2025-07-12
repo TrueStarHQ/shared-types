@@ -5,10 +5,10 @@
  * API for fake review detection services
  * OpenAPI spec version: 1.0.0
  */
-import type { GreenFlag } from './greenFlag';
-import type { AnalysisMetrics } from './analysisMetrics';
-import type { RedFlag } from './redFlag';
-import type { ProductSummary } from './productSummary';
+import type { GreenFlag } from "./greenFlag";
+import type { AnalysisMetrics } from "./analysisMetrics";
+import type { RedFlag } from "./redFlag";
+import type { ProductSummary } from "./productSummary";
 
 export type CheckAmazonProductResponseAllOf = {
   /** Positive authenticity indicators */

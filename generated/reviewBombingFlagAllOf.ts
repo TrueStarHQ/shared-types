@@ -5,8 +5,8 @@
  * API for fake review detection services
  * OpenAPI spec version: 1.0.0
  */
-import type { ReviewBombingFlagAllOfDetails } from './reviewBombingFlagAllOfDetails';
-import type { ReviewBombingFlagAllOfType } from './reviewBombingFlagAllOfType';
+import type { ReviewBombingFlagAllOfDetails } from "./reviewBombingFlagAllOfDetails";
+import type { ReviewBombingFlagAllOfType } from "./reviewBombingFlagAllOfType";
 
 export type ReviewBombingFlagAllOf = {
   details?: ReviewBombingFlagAllOfDetails;

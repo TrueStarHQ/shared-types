@@ -5,7 +5,7 @@
  * API for fake review detection services
  * OpenAPI spec version: 1.0.0
  */
-import type { HealthResponseAllOfStatus } from './healthResponseAllOfStatus';
+import type { HealthResponseAllOfStatus } from "./healthResponseAllOfStatus";
 
 export type HealthResponseAllOf = {
   status: HealthResponseAllOfStatus;

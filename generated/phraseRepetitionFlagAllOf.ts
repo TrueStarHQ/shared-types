@@ -5,8 +5,8 @@
  * API for fake review detection services
  * OpenAPI spec version: 1.0.0
  */
-import type { PhraseRepetitionFlagAllOfDetails } from './phraseRepetitionFlagAllOfDetails';
-import type { PhraseRepetitionFlagAllOfType } from './phraseRepetitionFlagAllOfType';
+import type { PhraseRepetitionFlagAllOfDetails } from "./phraseRepetitionFlagAllOfDetails";
+import type { PhraseRepetitionFlagAllOfType } from "./phraseRepetitionFlagAllOfType";
 
 export type PhraseRepetitionFlagAllOf = {
   details?: PhraseRepetitionFlagAllOfDetails;

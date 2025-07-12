@@ -6,9 +6,7 @@
  * OpenAPI spec version: 1.0.0
  */
 
-export type ExcessivelyPositiveFlagAllOfDetails = {
-  /** Average rating of flagged reviews */
-  averageRating: number;
+export type ExcessivePositivityFlagAllOfDetails = {
   /** Common superlative keywords found */
   keywords?: string[];
   /** Reviews with excessive positivity */

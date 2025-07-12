@@ -6,10 +6,10 @@
  * OpenAPI spec version: 1.0.0
  */
 
-export type HealthResponseAllOfStatus = typeof HealthResponseAllOfStatus[keyof typeof HealthResponseAllOfStatus];
-
+export type HealthResponseAllOfStatus =
+  (typeof HealthResponseAllOfStatus)[keyof typeof HealthResponseAllOfStatus];
 
 // eslint-disable-next-line @typescript-eslint/no-redeclare
 export const HealthResponseAllOfStatus = {
-  ok: 'ok',
+  ok: "ok",
 } as const;

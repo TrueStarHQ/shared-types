@@ -5,10 +5,11 @@
  * API for fake review detection services
  * OpenAPI spec version: 1.0.0
  */
-import type { Flag } from './flag';
-import type { HighVerifiedPurchasesFlagAllOf } from './highVerifiedPurchasesFlagAllOf';
-import type { HighVerifiedPurchasesFlagType } from './highVerifiedPurchasesFlagType';
+import type { Flag } from "./flag";
+import type { HighVerifiedPurchasesFlagAllOf } from "./highVerifiedPurchasesFlagAllOf";
+import type { HighVerifiedPurchasesFlagType } from "./highVerifiedPurchasesFlagType";
 
-export type HighVerifiedPurchasesFlag = Flag & HighVerifiedPurchasesFlagAllOf & {
-  type: HighVerifiedPurchasesFlagType;
-};
+export type HighVerifiedPurchasesFlag = Flag &
+  HighVerifiedPurchasesFlagAllOf & {
+    type: HighVerifiedPurchasesFlagType;
+  };

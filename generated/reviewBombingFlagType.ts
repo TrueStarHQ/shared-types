@@ -6,10 +6,10 @@
  * OpenAPI spec version: 1.0.0
  */
 
-export type ReviewBombingFlagType = typeof ReviewBombingFlagType[keyof typeof ReviewBombingFlagType];
-
+export type ReviewBombingFlagType =
+  (typeof ReviewBombingFlagType)[keyof typeof ReviewBombingFlagType];
 
 // eslint-disable-next-line @typescript-eslint/no-redeclare
 export const ReviewBombingFlagType = {
-  review_bombing: 'review_bombing',
+  review_bombing: "review_bombing",
 } as const;

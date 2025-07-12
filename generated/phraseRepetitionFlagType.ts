@@ -6,10 +6,10 @@
  * OpenAPI spec version: 1.0.0
  */
 
-export type PhraseRepetitionFlagType = typeof PhraseRepetitionFlagType[keyof typeof PhraseRepetitionFlagType];
-
+export type PhraseRepetitionFlagType =
+  (typeof PhraseRepetitionFlagType)[keyof typeof PhraseRepetitionFlagType];
 
 // eslint-disable-next-line @typescript-eslint/no-redeclare
 export const PhraseRepetitionFlagType = {
-  phrase_repetition: 'phrase_repetition',
+  phrase_repetition: "phrase_repetition",
 } as const;

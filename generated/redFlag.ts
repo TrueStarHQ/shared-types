@@ -5,8 +5,11 @@
  * API for fake review detection services
  * OpenAPI spec version: 1.0.0
  */
-import type { ReviewBombingFlag } from './reviewBombingFlag';
-import type { PhraseRepetitionFlag } from './phraseRepetitionFlag';
-import type { ExcessivelyPositiveFlag } from './excessivelyPositiveFlag';
+import type { ReviewBombingFlag } from "./reviewBombingFlag";
+import type { PhraseRepetitionFlag } from "./phraseRepetitionFlag";
+import type { ExcessivePositivityFlag } from "./excessivePositivityFlag";
 
-export type RedFlag = ReviewBombingFlag | PhraseRepetitionFlag | ExcessivelyPositiveFlag;
+export type RedFlag =
+  | ReviewBombingFlag
+  | PhraseRepetitionFlag
+  | ExcessivePositivityFlag;

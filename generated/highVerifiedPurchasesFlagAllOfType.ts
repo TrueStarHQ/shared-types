@@ -6,10 +6,10 @@
  * OpenAPI spec version: 1.0.0
  */
 
-export type HighVerifiedPurchasesFlagAllOfType = typeof HighVerifiedPurchasesFlagAllOfType[keyof typeof HighVerifiedPurchasesFlagAllOfType];
-
+export type HighVerifiedPurchasesFlagAllOfType =
+  (typeof HighVerifiedPurchasesFlagAllOfType)[keyof typeof HighVerifiedPurchasesFlagAllOfType];
 
 // eslint-disable-next-line @typescript-eslint/no-redeclare
 export const HighVerifiedPurchasesFlagAllOfType = {
-  high_verified_purchases: 'high_verified_purchases',
+  high_verified_purchases: "high_verified_purchases",
 } as const;
