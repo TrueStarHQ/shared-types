@@ -1,33 +1,37 @@
 {
   "name": "@truestarhq/shared-types",
   "version": "0.0.2",
-  "main": "./index.ts",
-  "types": "./index.ts",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
   "license": "MIT",
   "scripts": {
     "clean": "rm -rf generated openapi.yaml",
     "fetch": "node scripts/fetch-api-spec.js",
     "codegen": "orval --config orval.config.cjs",
-    "update": "pnpm clean && pnpm fetch && pnpm codegen && rm -f openapi.yaml"
+    "update": "pnpm clean && pnpm fetch && pnpm codegen && rm -f openapi.yaml",
+    "build": "tsc",
+    "prepare": "pnpm build"
   },
   "dependencies": {
     "zod": "^3.25.76"
   },
   "devDependencies": {
-    "orval": "^6.31.0"
+    "orval": "^6.31.0",
+    "typescript": "^5.8.3"
   },
   "files": [
+    "dist",
     "generated",
     "index.ts"
   ],
   "exports": {
     ".": {
-      "types": "./index.ts",
-      "default": "./index.ts"
+      "types": "./dist/index.d.ts",
+      "default": "./dist/index.js"
     },
     "./generated/zod": {
-      "types": "./generated/zod.ts",
-      "default": "./generated/zod.ts"
+      "types": "./dist/generated/zod.d.ts",
+      "default": "./dist/generated/zod.js"
     }
   }
 }
