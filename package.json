@@ -10,7 +10,7 @@
     "codegen": "orval --config orval.config.cjs",
     "update": "pnpm clean && pnpm fetch && pnpm codegen && rm -f openapi.yaml",
     "build": "tsc",
-    "prepare": "pnpm build"
+    "postinstall": "pnpm build"
   },
   "dependencies": {
     "zod": "^3.25.76"
