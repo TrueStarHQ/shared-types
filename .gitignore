@@ -1,8 +1,6 @@
 # Dependencies
 node_modules/
 
-# Build output
-dist/
 
 # Fetched OpenAPI spec (source of truth lives in API repo)
 openapi.yaml

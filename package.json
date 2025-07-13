@@ -9,8 +9,7 @@
     "fetch": "node scripts/fetch-api-spec.js",
     "codegen": "orval --config orval.config.cjs",
     "update": "pnpm clean && pnpm fetch && pnpm codegen && rm -f openapi.yaml",
-    "build": "tsc",
-    "postinstall": "pnpm build"
+    "build": "tsc"
   },
   "dependencies": {
     "zod": "^3.25.76"
